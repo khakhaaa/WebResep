@@ -6,11 +6,10 @@
 .ResepRawon{
     display: flex;
     justify-content: start;
+    border-radius: 15px; /* Menentukan radius sudut tumpul */
 }
 
 body{
-    /* background-color: rgba(173, 216, 230, 0.122); */
-    /* opacity: 0.3; */
     background-image: url("https://t3.ftcdn.net/jpg/02/46/34/78/360_F_246347823_T8NACo1cShMMgk2MPZsm4NHXACcCzeuJ.jpg");
 }
 
@@ -19,11 +18,20 @@ h1{
     color: #ffffff;
 }
 
+h3{
+    font-size: 25;
+}
+
 section{
-    max-width: 1000px;
+    max-width: 1050px;
     margin: 20px auto;
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 8px;
 }
+
+/* .dashed{
+    border-style: dashed;
+    border-color: #000000;
+} */
