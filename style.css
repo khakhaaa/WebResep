@@ -1,0 +1,29 @@
+*{
+    font-family: 'Signika Negative', sans-serif;
+    /* font-size: 19; */
+}
+
+.ResepRawon{
+    display: flex;
+    justify-content: start;
+}
+
+body{
+    /* background-color: rgba(173, 216, 230, 0.122); */
+    /* opacity: 0.3; */
+    background-image: url("https://t3.ftcdn.net/jpg/02/46/34/78/360_F_246347823_T8NACo1cShMMgk2MPZsm4NHXACcCzeuJ.jpg");
+}
+
+h1{
+    background-color: rgb(227, 172, 54);
+    color: #ffffff;
+}
+
+section{
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
